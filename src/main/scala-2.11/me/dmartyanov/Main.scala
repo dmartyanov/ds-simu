@@ -116,7 +116,6 @@ case class DataValue(value: Int)
 case class SetMessage(dv: DataValue)
 
 case class ActualSetMessage(dv: DataValue)
-case class ActualReplication(dv: DataValue, a: ActorRef)
 
 case class Replicate(dv: DataValue)
 
